@@ -42,6 +42,10 @@
   -webkit-filter: grayscale(1);
 }
 
+.menu #git{
+  opacity: 0.3;
+}
+
 .menu .footer {
   position: absolute;
   bottom: 20px;
@@ -67,6 +71,14 @@
 /* social media hover animations */
 
 .menu img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transition: opacity .5s ease;
+}
+
+.menu #git:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   filter: none;
