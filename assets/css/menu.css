@@ -11,7 +11,7 @@
 .menu .nav {
   color: #5a5a5a;
   font-size: 24px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   text-decoration: none;
   display: inline-block;
 }
@@ -50,7 +50,7 @@
   position: absolute;
   bottom: 20px;
   left: 10px;
-  font-family: Courier;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 /* website hover animations */

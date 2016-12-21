@@ -22,14 +22,14 @@
 
 .jumbotron h2 {
   color: #5a5a5a;
-  font-family: "Lato", sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .jumbotron .text {
   float: left;
   margin: 5%;
   color: #5a5a5a;
-  font-family: "Lato", sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   width: 60%;
   height: 10px;
 }
