@@ -16,19 +16,19 @@
   max-width: 75%;
   position: absolute;
   left: 250px; /* 300px for center */
-  background-color: hsla(0, 0%, 25%, 0.0); /* 4th param is opacity */
+  background-color: hsla(0, 0%, 100%, 0.6); /* 4th param is opacity */
 }
 
 .jumbotron img {
   float: left;
   overflow: auto;
-  margin: 5%;
+  margin: 4%;
   width: 25%;
   height: 25%;
 }
 
 .jumbotron p {
-  margin: 5%;
+  margin: 4%;
+  font-family: "Lato", sans-serif;
   color: #5a5a5a;
-  font-family: Courier;
 }

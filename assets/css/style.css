@@ -11,7 +11,7 @@
 .menu .nav {
   color: #5a5a5a;
   font-size: 24px;
-  font-family: Courier;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
   display: inline-block;
 }
@@ -101,10 +101,18 @@
 .jumbotron .container {
   position: fixed;
   top: 210px;
-  left: 500px;
-  filter: gray;
+  left: -75px;
+  text-align: center;
+  color: #5a5a5a;
+  /*
+  filter: gray; 
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  */
+}
+
+#name {
+  font-size: 48px;
 }
 
 
