@@ -101,8 +101,7 @@
 .jumbotron .container {
   position: fixed;
   top: 210px;
-  left: -75px;
-  text-align: center;
+  left: 275px;
   color: #5a5a5a;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   /*
