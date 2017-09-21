@@ -1,7 +1,8 @@
+
 /* background */
 
 .jumbotron, html {
-  background-color: #eaf2ff; 
+  background-color: #fff; 
   height: 100%;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -11,13 +12,18 @@
 }
 
 /* content */
+* {
+  color: #fff;
+}
 
 .jumbotron .container {
   max-width: 75%;
   margin-bottom: 2%;
+  margin-top: 4%;
   position: absolute;
-  left: 250px; /* 300px for center */
-  background-color: hsla(0, 0%, 100%, 0.6); /* 4th param is opacity */
+  left: 15%;
+  background-color: hsla(227, 100%, 58%, 1.0); /* last value is percentage */
+  border-radius: 25px;
 }
 
 .jumbotron img {
@@ -31,5 +37,9 @@
 .jumbotron p {
   margin: 4%;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  color: #5a5a5a;
+}
+
+.jumbotron a {
+  text-decoration: underline;
+  color: #fff;
 }

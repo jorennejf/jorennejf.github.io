@@ -5,7 +5,7 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/projects.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
     <script src="assets/js/jquery-3.2.1.js"></script>
     <script src="assets/js/projects.js"></script>
 
@@ -20,151 +20,136 @@
 
   <body>
 
-    <div class="menu">
+    <header class="header">    
+      <input class="menu-mobile" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
-      <ul>
-     	<li>
-	      <a href="index.html" class="nav">Home</a>
-	    </li>
-            <li>
-	      <a href="about.html" class="nav">About</a>
-	    </li>
-            <li>
-	      <a id="current" href="projects.html" class="nav">Projects</a>
-	    </li>
-	    <li>
-	      <a target="_blank" href="Jorenne Flores - Resume.pdf" class="nav">Resume</a>
-	    </li>
+      <ul class="menu">
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li><a href="about.html" class="nav">About</a></li>
+        <li><a id="current" href="projects.html" class="nav">Projects</a></li>
+        <li><a target="_blank" href="Jorenne Flores - Resume.pdf" class="nav">Resume</a></li>
+        <div class="socialmedia">
+          <li><a target="_blank" href="https://www.facebook.com/jorennejf"><img src="assets/images/fb.png"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jorenne-flores-a99356a9"><img src="assets/images/in.png"></a></li>
+          <li><a target="_blank" href="https://github.com/jorennejf/"><img src="assets/images/git.png" id="git"></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/JorenneFlores"><img src="assets/images/yt.png"></a></li>
+        </div>
       </ul>
 
-          <div class="socialmedia">
-            <ul>
-   	      		<li><a target="_blank" href="https://www.facebook.com/jorennejf"><img src="assets/images/fb.png"></a></li>
-              	<li><a target="_blank" href="https://www.linkedin.com/in/jorenne-flores-a99356a9"><img src="assets/images/in.png"></a></li>
-              	<li><a target="_blank" href="https://github.com/jorennejf/"><img src="assets/images/git.png" id="git"></a></li>
-              	<li><a target="_blank" href="https://www.youtube.com/JorenneFlores"><img src="assets/images/yt.png"></a></li>
-            </ul>
-          </div>
-
-	  <div class="footer">
-	    &copy; Created by Jorenne Flores
-	  </div>
-
-    </div>
-
+    </header>
 
     <div class="jumbotron">
-      <div class="container">
+    	<div class="container">
 
-		<h1 align="center">Projects</h1>
-		<h2 align="center">
-			<a id="all" class="current" href="javascript:showAll()">All</a> | 
-			<a id="art" href="javascript:showArt()">Art</a> | 
-			<a id="design" href="javascript:showDesign()">Design</a> | 
-			<a id="programming" href="javascript:showProgramming()">Programming</a> 
-		</h2>
-	      
-	      
-		<div class="all art programming">
-			<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813"><img src="assets/images/dmlvr.png"></a>
-			<div class="text">
-		    	<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813"><h3>DML SteamVR Home Environment</h3></a>
-			  	<p>July 2017</p>
-			  	<p>Created with: Google SketchUp & SteamVR Workshop</p>
+			<h1 align="center">Projects</h1>
+			<h2 align="center">
+				<a id="all" class="current" href="javascript:showAll()">All</a> | 
+				<a id="art" href="javascript:showArt()">Art</a> | 
+				<a id="design" href="javascript:showDesign()">Design</a> | 
+				<a id="programming" href="javascript:showProgramming()">Programming</a> 
+			</h2>
+		      
+		      
+			<div class="all art programming">
+				<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813"><img src="assets/images/dmlvr.png"></a>
+				<div class="text">
+			    	<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813"><h3>DML SteamVR Home Environment</h3></a>
+				  	<p>July 2017</p>
+				  	<p>Created with: Google SketchUp & SteamVR Workshop</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all design programming">
-			<a target="_blank" href="https://pintura.herokuapp.com/"><img src="assets/images/pintura.png"></a>
-			<div class="text">
-		    	<a target="_blank" href="https://pintura.herokuapp.com/"><h3>Pintura: Geographical Digital Graffiti App</h3></a>
-			  	<p>June 2017</p>
-			  	<p>Created with: JavaScript, HTML, CSS</p>
+			<div class="all design programming">
+				<a target="_blank" href="https://pintura.herokuapp.com/"><img src="assets/images/pintura.png"></a>
+				<div class="text">
+			    	<a target="_blank" href="https://pintura.herokuapp.com/"><h3>Pintura: Geographical Digital Graffiti App</h3></a>
+				  	<p>June 2017</p>
+				  	<p>Created with: JavaScript, HTML, CSS</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all art design">
-			<a target="_blank" href="assets/images/cogscibanners.png"><img src="assets/images/cogscibanners.png"></a>
-			<div class="text">
-		    	<a target="_blank" href="assets/images/cogscibanners.png"><h3>Cognitive Science Department Banner Designs</h3></a>
-			  	<p>April 2017</p>
-			  	<p>Created with: Adobe Photoshop CC</p>
+			<div class="all art design">
+				<a target="_blank" href="assets/images/cogscibanners.png"><img src="assets/images/cogscibanners.png"></a>
+				<div class="text">
+			    	<a target="_blank" href="assets/images/cogscibanners.png"><h3>Cognitive Science Department Banner Designs</h3></a>
+				  	<p>April 2017</p>
+				  	<p>Created with: Adobe Photoshop CC</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all art">
-			<a target="_blank" href="https://www.youtube.com/watch?v=T85hlOj7k5U"><img src="assets/images/demoreelstill.png"></a>
-			<div class="text">
-		     	<a target="_blank" href="https://www.youtube.com/watch?v=T85hlOj7k5U"><h3>Demo Reel</h3></a>
-				<p>Updated February 2017</p>
-			  	<p>Created with: Various editing software</p>
+			<div class="all art">
+				<a target="_blank" href="https://www.youtube.com/watch?v=T85hlOj7k5U"><img src="assets/images/demoreelstill.png"></a>
+				<div class="text">
+			     	<a target="_blank" href="https://www.youtube.com/watch?v=T85hlOj7k5U"><h3>Demo Reel</h3></a>
+					<p>Updated February 2017</p>
+				  	<p>Created with: Various editing software</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all design programming">
-			<a target="_blank" href="https://vimeo.com/193443339"><img src="assets/images/Chewsr.png"></a>
-			<div class="text">
-		     	<a target="_blank" href="https://vimeo.com/193443339"><h3>Chewsr: Restaurant Chooser Web App</h3></a>
-			  	<p>November 2016</p>
-			  	<p>Created with: JavaScript, HTML, CSS</p>
+			<div class="all design programming">
+				<a target="_blank" href="https://vimeo.com/193443339"><img src="assets/images/Chewsr.png"></a>
+				<div class="text">
+			     	<a target="_blank" href="https://vimeo.com/193443339"><h3>Chewsr: Restaurant Chooser Web App</h3></a>
+				  	<p>November 2016</p>
+				  	<p>Created with: JavaScript, HTML, CSS</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all design">
-			<a target="_blank" href="https://www.youtube.com/watch?v=AVgsd4qkiEc&"><img src="assets/images/stemtors.png"></a>
-			<div class="text">
-		        <a target="_blank" href="https://www.youtube.com/watch?v=AVgsd4qkiEc&"><h3>STEMtors</h3></a>
-			  	<p>September 2016</p>
-			  	<p>Created with: InVision</p>
+			<div class="all design">
+				<a target="_blank" href="https://www.youtube.com/watch?v=AVgsd4qkiEc&"><img src="assets/images/stemtors.png"></a>
+				<div class="text">
+			        <a target="_blank" href="https://www.youtube.com/watch?v=AVgsd4qkiEc&"><h3>STEMtors</h3></a>
+				  	<p>September 2016</p>
+				  	<p>Created with: InVision</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all art">
-			<a target="_blank" href="https://www.youtube.com/watch?v=fAQUz1_THD8"><img src="assets/images/SunGod.jpg"></a>
-			<div class="text">
-		        <a target="_blank" href="https://www.youtube.com/watch?v=fAQUz1_THD8"><h3>Sun God 3D Sculpting</h3></a>
-			  	<p>February 2016</p>
-			  	<p>Created with: Autodesk Meshmixer</p>
+			<div class="all art">
+				<a target="_blank" href="https://www.youtube.com/watch?v=fAQUz1_THD8"><img src="assets/images/SunGod.jpg"></a>
+				<div class="text">
+			        <a target="_blank" href="https://www.youtube.com/watch?v=fAQUz1_THD8"><h3>Sun God 3D Sculpting</h3></a>
+				  	<p>February 2016</p>
+				  	<p>Created with: Autodesk Meshmixer</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all art programming">
-			<a target="_blank" href="https://github.com/jorennejf/horror-storybook-game"><img src="assets/images/curlybraces.png"></a>
-			<div class="text">
-		        <a target="_blank" href="https://github.com/jorennejf/horror-storybook-game"><h3>Interactive Horror Storybook Game</h3></a>
-			  	<p>December 2015</p>
-			  	<p>Created with: Java</p>
+			<div class="all art programming">
+				<a target="_blank" href="https://github.com/jorennejf/horror-storybook-game"><img src="assets/images/curlybraces.png"></a>
+				<div class="text">
+			        <a target="_blank" href="https://github.com/jorennejf/horror-storybook-game"><h3>Interactive Horror Storybook Game</h3></a>
+				  	<p>December 2015</p>
+				  	<p>Created with: Java</p>
+				</div>
 			</div>
-		<div>
 
-		<div class="all art">
-			<a target="_blank" href="assets/images/Comic.png"><img src="assets/images/Comic.png"></a>
-			<div class="text">
-		        <a target="_blank" href="assets/images/Comic.png"><h3>Comic Panel</h3></a>
-			  	<p>May 2015</p>
-			  	<p>Created with: Adobe Photoshop CS6</p>
+			<div class="all art">
+				<a target="_blank" href="assets/images/Comic.png"><img src="assets/images/Comic.png"></a>
+				<div class="text">
+			        <a target="_blank" href="assets/images/Comic.png"><h3>Comic Panel</h3></a>
+				  	<p>May 2015</p>
+				  	<p>Created with: Adobe Photoshop CS6</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all art">
-			<a target="_blank" href="assets/images/GleeProgram.jpg"><img src="assets/images/GleeProgram.jpg"></a>
-			<div class="text">
-		        <a target="_blank" href="assets/imagesGleeProgram.jpg"><h3>Glee Club Program Cover</h3></a>
-			  	<p>May 2014</p>
-			  	<p>Created with: Adobe Photoshop CS6</p>
+			<div class="all art">
+				<a target="_blank" href="assets/images/GleeProgram.jpg"><img src="assets/images/GleeProgram.jpg"></a>
+				<div class="text">
+			        <a target="_blank" href="assets/imagesGleeProgram.jpg"><h3>Glee Club Program Cover</h3></a>
+				  	<p>May 2014</p>
+				  	<p>Created with: Adobe Photoshop CS6</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="all">
-			<a target="_blank" href="http://www.slideshare.net/JorenneFlores/completed-poster"><img src="assets/images/Stanford Poster2.jpg"></a>
-			<div class="text">
-		        <a target="_blank" href="http://www.slideshare.net/JorenneFlores/completed-poster"><h3>Stanford Research Poster</h3></a>
-			  	<p>August 2013</p>
-			  	<p>Created with: Microsoft Powerpoint</p>
+			<div class="all">
+				<a target="_blank" href="http://www.slideshare.net/JorenneFlores/completed-poster"><img src="assets/images/Stanford Poster2.jpg"></a>
+				<div class="text">
+			        <a target="_blank" href="http://www.slideshare.net/JorenneFlores/completed-poster"><h3>Stanford Research Poster</h3></a>
+				  	<p>August 2013</p>
+				  	<p>Created with: Microsoft Powerpoint</p>
+				</div>
 			</div>
-		</div>
-
-      </div>
+    	</div>
     </div> 
 
   </body>

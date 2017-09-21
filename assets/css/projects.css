@@ -1,7 +1,8 @@
+
 /* background */
 
 .jumbotron, html {
-  background-color: #eaf2ff; 
+  background-color: #fff; 
   height: 100%;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -11,23 +12,27 @@
 }
 
 /* content */
+* {
+  color: #fff;
+}
 
 .jumbotron .container {
   max-width: 75%;
   margin-bottom: 2%;
+  margin-top: 4%;
   position: absolute;
-  left: 250px; /* 300px for center */
-  background-color: hsla(0, 0%, 100%, 0.6);
+  left: 15%;
+  background-color: hsla(227, 100%, 58%, 1.0); /* last value is percentage */
+  border-radius: 25px;
 }
 
 .jumbotron h1 {
-  color: #5a5a5a;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 3em;
 }
 
 .jumbotron a{
-  color: #5a5a5a !important;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -43,14 +48,12 @@
 .jumbotron .text {
   float: left;
   margin: 5%;
-  color: #5a5a5a;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   width: 60%;
   height: 10px;
 }
 
 .jumbotron h3 {
-  color: #5a5a5a;
   text-decoration: underline;
 }
 
