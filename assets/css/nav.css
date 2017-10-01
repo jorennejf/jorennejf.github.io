@@ -51,37 +51,38 @@
   opacity: 0.3;
 }
 
-/* Website Hover Animations */
+/* Animations on Only for Desktop */
+@media (min-width: 1024px) {
+  /* Website Hover Animations */
+  .nav:after { 
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width .5s ease;
+  }
+  .nav:hover:after { 
+    width: 100%;
+    background: #5a5a5a;
+  }
 
-.nav:after { 
-  content: '';
-  display: block;
-  height: 3px;
-  width: 0;
-  transition: width .5s ease;
+  /* Social Media Hover Animations */
+  .socialmedia img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: opacity .5s ease;
+  }
+  .socialmedia #git:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: opacity .5s ease;
+  }
 }
-
-.nav:hover:after { 
-  width: 100%;
-  background: #5a5a5a;
-}
-
-/* Social Media Hover Animations */
-
-.socialmedia img:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  filter: none;
-  -webkit-filter: grayscale(0);
-  transition: opacity .5s ease;
-}
-.socialmedia #git:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  filter: none;
-  -webkit-filter: grayscale(0);
-  transition: opacity .5s ease;
-}
+/* End Animations */
 
 /* Menu */
 

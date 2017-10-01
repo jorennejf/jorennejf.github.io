@@ -1,4 +1,10 @@
 
+/* Temporary for while I make mobile site */
+.maintenance{
+  display: none;
+}
+
+
 /* background */
 
 .jumbotron, html {
@@ -29,9 +35,9 @@
 .jumbotron img {
   float: left;
   overflow: auto;
-  margin: 4%;
+  margin: 4% 2% 0% 4%;
   width: 25%;
-  height: 25%;
+  height: auto;
 }
 
 .jumbotron p {
@@ -42,4 +48,21 @@
 .jumbotron a {
   text-decoration: underline;
   color: #fff;
+}
+
+/* Temporary for while I make mobile site */
+@media only screen and (max-width: 768px){
+
+  .jumbotron{
+    display: none;
+  }
+
+  .maintenance{
+    padding: 20%;
+    display: inline-block;
+    color: black;
+  }
+  .maintenance p{
+    color: black;
+  }
 }

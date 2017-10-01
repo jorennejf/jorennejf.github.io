@@ -1,4 +1,11 @@
 
+/* Temporary for while I make mobile site */
+.maintenance{
+  display: none;
+}
+
+
+
 /* background */
 
 .jumbotron, html {
@@ -63,3 +70,20 @@
   width: 20%;
 }
 
+
+/* Temporary for while I make mobile site */
+@media only screen and (max-width: 768px){
+
+  .jumbotron{
+    display: none;
+  }
+
+  .maintenance{
+    padding: 20%;
+    display: inline-block;
+    color: black;
+  }
+  .maintenance p{
+    color: black;
+  }
+}
