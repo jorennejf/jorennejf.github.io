@@ -19,16 +19,16 @@ function showDesign() {
 	$( ".design" ).fadeIn( "fast", function() {});	
 }
 
-function showProgramming() {
+function showTechnical() {
 	unboldAll();
-	$( "#programming" ).addClass( "current" );
+	$( "#technical" ).addClass( "current" );
 	$( ".all" ).fadeOut( "fast", function() {});
-	$( ".programming" ).fadeIn( "fast", function() {});	
+	$( ".technical" ).fadeIn( "fast", function() {});	
 }
 
 function unboldAll() {
 	$( "#all" ).removeClass( "current" );
 	$( "#art" ).removeClass( "current" );
 	$( "#design" ).removeClass( "current" );
-	$( "#programming" ).removeClass( "current" );
+	$( "#technical" ).removeClass( "current" );
 }
