@@ -1,3 +1,4 @@
+/***************** functions to change categories *****************/
 function showAll() {
 	unboldAll();
 	$( "#all" ).addClass( "current" );
@@ -32,3 +33,4 @@ function unboldAll() {
 	$( "#design" ).removeClass( "current" );
 	$( "#technical" ).removeClass( "current" );
 }
+/******************************************************************/

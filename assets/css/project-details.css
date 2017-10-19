@@ -1,0 +1,38 @@
+.jumbotron .content{
+  padding: 10px 20px;
+}
+
+.jumbotron #back{
+  margin-left: 20px;
+}
+
+.jumbotron ul {
+  font-size: 1.25em;
+}
+
+.jumbotron iframe{
+  margin-left: 150px;
+}
+
+.jumbotron .button{
+  margin: 0 43%;
+  background-color: #AAAAAA;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25em;
+  cursor: pointer;
+
+  /* Animation */
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.jumbotron .button:hover {
+  background-color: white;
+  color: hsla(227, 100%, 58%, 1.0);
+}
