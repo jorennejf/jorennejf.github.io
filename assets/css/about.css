@@ -43,6 +43,7 @@
 .jumbotron p {
   margin: 4%;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .jumbotron a {
