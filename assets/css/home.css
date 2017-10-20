@@ -50,6 +50,7 @@
     padding-left: 40%; /* center is 30% */
     font-size: 42px; /* mobile equivalent is 64px */
     line-height: 36px;
+    height: 650px;
   }
 
   .subtitle{
