@@ -36,6 +36,13 @@
   height: auto;
 }
 
+.jumbotron h1 {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 2.5em;
+  padding-top: 20px;
+  margin-bottom: -20px;
+}
+
 .jumbotron p {
   margin: 4%;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
