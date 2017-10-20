@@ -60,28 +60,142 @@
 
 			<br>
 
-			<iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/WFyGwqSNqoU" frameborder="0"></iframe>
+			<iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/SAReInJbqkQ" frameborder="0"></iframe>
 
 			<br>
 			<br>
 
 			<div class="content">
 				<h2>About</h2>
-				<p>Pintura is a web app in which users can post and view digital graffiti based on their current location. This project was a part of COGS 121: HCI Programming Studio, where we worked in teams of 4 to create geographical and map-related applications. The other members of my team include Connie Guan, Tony Salim, and Chang Gwoun.</p>
+				<p>Pintura is a web app in which users can post and view digital graffiti based on their current location. The goal of our app is to allow users to express their creativity while creating a sense of community and exploration. Traditional graffiti defaces public property, so by moving it to a digital platform, it allows artists to continue to express themselves through lawful methods.</p>
+        <p>This project was a part of COGS 121: HCI Programming Studio, where we worked in teams of 4 to create geographical and map-related applications. The other members of my team include Connie Guan, Tony Salim, and Chang Gwoun.</p>
 			</div>
+
+      <table style="margin-left: 20px">
+        <tr>
+          <th>Tools</th>
+          <th>My Roles</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Prototyping</li>
+              <li>Front-End Development</li>
+              <li>Graphics</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <div class="content">
+        <h2>Main Features</h2>
+        <ul>
+          <li>Users can virtually tag locations, and these places are marked on the map</li>
+          <li>Interactive map allows the user to browse for nearby graffiti</li>
+          <li>Upvoting system in which graffiti with more upvotes can be seen from longer distances than less popular graffiti</li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>Design Process</h2>
+        <ol>
+          <li>Ideate: We all brainstormed different ideas in which the problem can be solved with a map or GPS application. To do this, we created storyboards of different scenarios and presented them to other teams in the class.</li>
+          <li>Prototype: In class, we had 2 paper prototyping sessions. We gave and received feedback for both, and we used this feedback to modify our UI and app functionality. Iterative design really helped guide us in determining what features we wanted to include.</li>
+          <li>Develop: Our first priority was developing the core map interactions, as this was the main functionality of the app. We did this by using Leaflet to provide location-based data. At the same time, we also began development on the drawing functionality, using Sketch.js. Once these features worked properly, we began work on UI enhancements and branding, and we continued to add more features based on feedback from our peers.</li>
+        </ol>
+      </div>
 
 			<div class="content">
-				<h2>Created Using</h2>
-				<ul>
-					<li>JavaScript</li>
-					<li>HTML</li>
-					<li>CSS</li>
-				</ul>
-			</div>
+        <h2>Storyboards</h2>
+        <p>As part of the ideation process, my team created storyboards for all of our different ideas.</p>
+        <table width="500px" cellpadding="10" align="center">
+          <tr>
 
-			<!--TODO: more stuff on the design process-->
+          <td align="center" style="padding-top: 50px">
+          <img src="../assets/images/projects/pintura-storyboard1.jpg" class="rotateimg90 table2" />
+          <br><br>
+          This is the storyboard my colleague made for Pintura.
+          </td>
 
-			<button class="button" onclick="window.open('https://pintura.herokuapp.com/')">Demo</button>
+          <td align="center">
+          <img src="../assets/images/projects/pintura-storyboard2.png" style="height: 335px"/>
+          Here's another storyboard that I made for a different idea.
+          </td>
+
+          </tr>
+        </table>
+        <br>
+        <p align="center">Click <a target="_blank" href="https://github.com/ConnieGuan/YellowCow/blob/master/milestones/storyboards.md"><u>here</u></a> to check out our other storyboards!</p>
+      </div>
+
+      <div class="content">
+        <h2>Prototypes</h2>
+        <p>We went through 2 iterations of paper prototyping. For the <a target="_blank" href="https://github.com/ConnieGuan/YellowCow/blob/master/milestones/paper-prototype.md"><u>first</u></a> session, my teammates and I drew prototypes of all the pages so that we can get a broader range of UIs and choose what we liked from them.</p>
+        <br><br><br>
+        <table width="500px" cellpadding="10">
+          <tr>
+
+          <td align="center">
+          <img src="../assets/images/projects/pintura-prototype1.jpg" class="rotateimg90 table3" />
+          <br><br><br>
+          This prototype shows the home screen of our app, which is a map with the user's current location and locations of graffiti.
+          </td>
+
+          <td align="center">
+          <img src="../assets/images/projects/pintura-prototype2.jpg" class="rotateimg90 table3" />
+          <br><br><br>
+          This prototype is another version of the viewing page. It is meant to replicate a wall of graffiti. Users can scroll right to view other graffiti.
+          </td>
+
+          <td align="center">
+          <img src="../assets/images/projects/pintura-prototype3.jpg" class="rotateimg90 table3" />
+          <br><br><br>
+          This prototype is the drawing page that is accessed when the user clicks "Draw" on the home screen. The majority of the page is dedicated to drawing the user's graffiti, with the available tools on the top.
+          </td>
+
+          </tr>
+        </table>
+
+        <br>
+
+        <p>For the <a target="_blank" href="https://github.com/ConnieGuan/YellowCow/blob/master/milestones/milestone8.md"><u>second</u></a> round of prototyping, each of us focused on one feature of the app. My task was to create prototypes for user profiles.</p>
+        <table width="500px" cellpadding="10" align="center">
+          <tr>
+
+          <td align="center">
+          <img src="../assets/images/projects/pintura-prototype4.jpg" class="rotateimg90 table2" />
+          This prototype displays the UI of the profiles in mobile view.
+          </td>
+
+          <td align="center">
+          <img src="../assets/images/projects/pintura-prototype5.jpg" class="table2"/>
+          This prototype displays the profiles again but in desktop view. It displays the exact same content as in mobile but with a different layout.
+          </td>
+
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <div class="content">
+        <h2>Conclusion</h2>
+        <p>I think I would say this is one of my proudest projects by far. I'm really happy with its uniqueness, and we got a generally positive reaction from the rest of the class. We presented our final product in the form of a silent demo video while my team each took turns narrating in front of the class.</p>
+      </div>
+
+      <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/WFyGwqSNqoU" frameborder="0"></iframe>
+
+      <br>
+      <br>
+
+			<button class="button" onclick="window.open('https://pintura.herokuapp.com/')">Try Pintura!</button>
+      <p align="center">(Our demo username is ucsdkid and the password is 1234)</p>
 
 			<!-- Attempting to hyperlink to section on projects (doesn't work yet)
 			<div class="content"><p>
