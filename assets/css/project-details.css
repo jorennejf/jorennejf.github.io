@@ -33,6 +33,10 @@
   min-width: 300px;
 }
 
+.jumbotron td span.caption{
+  font-size: 0.8em;
+}
+
 .jumbotron td img {
   height: 250px;
   width: auto;
