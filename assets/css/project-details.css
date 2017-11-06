@@ -6,6 +6,12 @@
   margin-left: 20px;
 }
 
+.jumbotron h3.ol{
+  margin-left: -2em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
 .jumbotron ul,ol {
   font-size: 1.25em;
 }
@@ -45,6 +51,16 @@
   display: block;
   height: 300px;
   width: auto;
+}
+
+.jumbotron .center{
+  margin: auto;
+}
+
+.jumbotron .caption{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
 }
 
 .rotateimg90 {
