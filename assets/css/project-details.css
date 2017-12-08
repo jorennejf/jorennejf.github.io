@@ -37,6 +37,11 @@
   font-size: 0.8em;
 }
 
+.jumbotron .single-photo{
+  margin: auto;
+  max-height: 500px;
+}
+
 .jumbotron td img {
   height: 250px;
   width: auto;
