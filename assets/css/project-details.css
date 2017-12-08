@@ -57,6 +57,8 @@
 }
 
 .jumbotron img{
+  overflow: auto;
+  margin: 5%;
   display: block;
   height: 300px;
   width: auto;
