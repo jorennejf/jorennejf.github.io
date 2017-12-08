@@ -18,14 +18,16 @@
 }
 
 .jumbotron .container {
-  color: #fff;
+  color: #5a5a5a;
   max-width: 75%;
   margin-bottom: 2%;
   margin-top: 4%;
   position: absolute;
   left: 15%;
-  background-color: hsla(227, 100%, 58%, 1.0); /* last value is percentage */
-  border-radius: 25px;
+}
+
+.jumbotron h1{
+  color: #2957ff;
 }
 
 .jumbotron img {
@@ -51,7 +53,7 @@
 
 .jumbotron a {
   text-decoration: underline;
-  color: #fff;
+  color: #2957ff;
 }
 
 footer{
