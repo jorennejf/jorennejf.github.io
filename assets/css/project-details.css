@@ -104,6 +104,6 @@
 }
 
 .jumbotron .button:hover {
-  background-color: white;
-  color: hsla(227, 100%, 58%, 1.0);
+  background-color: #2957ff;
+  color: white;
 }
