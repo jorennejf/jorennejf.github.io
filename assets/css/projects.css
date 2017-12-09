@@ -44,6 +44,7 @@
 
 .jumbotron .current{
   font-weight: bold;
+  color: #2957ff !important;
 }
 
 .jumbotron h3 {

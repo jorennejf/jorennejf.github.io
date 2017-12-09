@@ -4,14 +4,6 @@
   font-weight: bold;
 }
 
-#current::after{
-  content: '';
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: #2957ff;
-}
-
 .header {
   background-color: #f9f9f9;
   position: fixed;
@@ -169,6 +161,14 @@
 /* Desktop Only */
 
 @media (min-width: 768px) {
+  #current::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #2957ff;
+  }
+
   .header {
     background-color: #fff;
   }
@@ -197,6 +197,9 @@
 /* Mobile Only */
 
 @media (max-width: 768px) {
+  #current{
+    color: #2957ff;
+  }
   .header li {
     padding-top: 5%;
   }
