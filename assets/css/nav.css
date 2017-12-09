@@ -4,6 +4,14 @@
   font-weight: bold;
 }
 
+#current::after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #2957ff;
+}
+
 .header {
   background-color: #f9f9f9;
   position: fixed;
@@ -63,7 +71,7 @@
   }
   .nav:hover:after { 
     width: 100%;
-    background: #5a5a5a;
+    background: #2957ff;
   }
 
   /* Social Media Hover Animations */
