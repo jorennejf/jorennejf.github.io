@@ -2,6 +2,11 @@
   padding: 10px 20px;
 }
 
+.jumbotron .content a{
+  color: #2957ff;
+  text-decoration: underline;
+}
+
 .jumbotron #back{
   margin-left: 20px;
 }
