@@ -89,7 +89,8 @@
 }
 
 .jumbotron iframe{
-  margin-left: 150px;
+  margin: 0 auto;
+  display: block;
 }
 
 .jumbotron .button{
