@@ -49,7 +49,7 @@
 
 /* Desktop Only */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .speech {
     padding-top: 7%;
     padding-left: 40%; /* center is 30% */

@@ -119,15 +119,6 @@
 }
 /* End Projects */
 
-footer{
-  text-align: center;
-  width: 92%;
-  margin: 0 auto;
-  position: absolute;
-  color: black;
-  padding-top: 30px;
-}
-
 
 /* Temporary for while I make mobile site */
 @media only screen and (max-width: 768px){

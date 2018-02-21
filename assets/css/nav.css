@@ -51,6 +51,14 @@
   opacity: 0.3;
 }
 
+footer{
+  text-align: center;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  position: absolute;
+  color: #5a5a5a;
+}
+
 /* Animations on Only for Desktop */
 @media (min-width: 1024px) {
   /* Website Hover Animations */
@@ -138,7 +146,7 @@
 }
 
 .header .menu-mobile:checked ~ .menu {
-  max-height: 300px;
+  max-height: 400px;
 }
 
 .header .menu-mobile:checked ~ .menu-icon .navicon {

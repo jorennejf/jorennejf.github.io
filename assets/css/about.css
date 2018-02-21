@@ -53,15 +53,6 @@
   display: none;
 }
 
-footer{
-  text-align: center;
-  width: 92%;
-  margin: 0 auto;
-  position: absolute;
-  color: black;
-  padding: 10px 0;
-}
-
 @media only screen and (max-width: 768px){
 
   .jumbotron img{
