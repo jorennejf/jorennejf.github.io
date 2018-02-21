@@ -2,6 +2,10 @@
   padding: 10px 20px;
 }
 
+.jumbotron .process{
+  background-color: #eee;
+}
+
 .jumbotron .content a{
   color: #2957ff;
   text-decoration: underline;
