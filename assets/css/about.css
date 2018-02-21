@@ -1,10 +1,3 @@
-
-/* Temporary for while I make mobile site */
-.maintenance{
-  display: none;
-}
-
-
 /* background */
 
 .jumbotron, html {
@@ -56,6 +49,10 @@
   color: #2957ff;
 }
 
+#backtop{
+  display: none;
+}
+
 footer{
   text-align: center;
   width: 92%;
@@ -65,19 +62,24 @@ footer{
   padding: 10px 0;
 }
 
-/* Temporary for while I make mobile site */
 @media only screen and (max-width: 768px){
 
-  .jumbotron{
-    display: none;
+  .jumbotron img{
+  float: none;
+  overflow: auto;
+  display: block;
+  margin: 15% auto;
+  width: 75%;
+  height: auto;
   }
 
-  .maintenance{
-    padding: 20%;
-    display: inline-block;
-    color: black;
+  #backtop{
+    display: block;
+    color: #5a5a5a;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 15% auto;
   }
-  .maintenance p{
-    color: black;
-  }
+
 }
