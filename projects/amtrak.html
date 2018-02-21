@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/projects.css">
+    <link rel="stylesheet" href="../assets/css/project-details.css">
+    <script src="../assets/js/jquery-3.2.1.js"></script>
+    <script src="assets/js/projects.js"></script>
+
+    <title>Amtrak Redesign</title>
+    <link rel="shortcut icon" href="../assets/images/header-icon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    
+  </head>
+
+  <body>
+
+    <header class="header">    
+      <input class="menu-mobile" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+      <ul class="menu">
+        <li><a href="../index.html" class="nav">Home</a></li>
+        <li><a href="../about.html" class="nav">About</a></li>
+        <li><a id="current" href="../projects.html" class="nav">Projects</a></li>
+        <li><a target="_blank" href="Jorenne Flores - Resume.pdf" class="nav">Resume</a></li>
+        <div class="socialmedia">
+          <li><a target="_blank" href="https://www.facebook.com/jorennejf"><img src="../assets/images/fb.png"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jorenne-flores-a99356a9"><img src="../assets/images/in.png"></a></li>
+          <li><a target="_blank" href="https://github.com/jorennejf/"><img src="../assets/images/git.png" id="git"></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/JorenneFlores"><img src="../assets/images/yt.png"></a></li>
+        </div>
+      </ul>
+
+    </header>
+
+
+    <!-- Temporary for while I make mobile site -->
+    <div class="maintenance">
+      <h3>Mobile View Under Maintenance</h3>
+      <p>If you really want to view this page, check it out on a desktop or with a larger size window! Sorry for the inconvenience :(</p>
+    </div>
+    
+
+    <div class="jumbotron">
+    	<div class="container">
+
+    		<a id="back" href="../projects.html">&larr; View More Projects</a>
+    		<br>
+    		<br>
+			<h1 align="center">Amtrak Redesign</h1>
+			<h2 align="center">Dec 2017</h2>
+
+			<br>
+
+			<img src="../assets/images/projects/amtrak1.jpg" class="single-photo">
+
+			<br>
+			<br>
+
+			<div class="content">
+				<h2>About</h2>
+				<p>Our Amtrak Redesign is an interactive prototype that features two different search result pages. The first uses a collapsible component to distinguish the different trip options. The second is a more static UI that displays the more important details in a simple chart.</p>
+        <p>This project was a part of COGS 187A: Usability and Information Architecture, where we worked in teams of 4 to evaluate a major travel site and redesign a component of it. The other members of my team include Connie Guan, Ricky Lieu, and Kent Tsang.</p>
+			</div>
+
+      <table style="margin-left: 20px">
+        <tr>
+          <th>Tools</th>
+          <th>My Roles</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Sketch</li>
+              <li>InVision</li>
+              <li>Google Docs</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>User Research</li>
+              <li>Design Analysis</li>
+              <li>Interactive Prototyping</li>
+              <li>Usability Testing</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <div class="content process">
+        <h2>Design Process</h2>
+        <ol>
+          <br />
+          <h3 class="ol">Research</h3>
+          <li>First, we conducted user testing with Amtrak's current website. We had 3 college students do a think aloud task on Amtrak, asking them questions before, during, and after the task. Then, we analyzed our findings to find the top usability problems on the current site.</li>
+
+          <br />
+
+          <li>Based on our research, we documented our findings with annotated screenshots of Amtrak's site. By analyzing these, we decided to redesign Amtrak's display of search results.</li>
+
+          <table width="500px" cellpadding="10" align="center">
+            <tr>
+
+            <td align="center">
+            <img src="../assets/images/projects/amtrak-screenshot1.png" class="table2" />
+            <span class="caption">The layout of search results is confusing and unclear. Our users weren't able to distinguish full trips from individual transfers.</span>
+            </td>
+
+            <td align="center">
+            <img src="../assets/images/projects/amtrak-screenshot2.png" class="table2" />
+            <span class="caption">Amtrak's display of time duration was misleading to users, who just want to know the overall trip time instead of having to add up each one.</span>
+            </td>
+
+            </tr>
+          </table>
+
+          <br />
+
+          <div class="caption">Click <a target="_blank" href="https://docs.google.com/document/d/1hb7zXegZ8VjsvHoQqedZD6bG84Z5B_V6RMvp4vpNvLI/edit#heading=h.fzgxdb4jk07j">here</a> to view more details &amp; annotated screenshots!</div>
+
+          <br />
+
+          <h3 class="ol">Prototype</h3>
+          <li>As a group, we sketched out different redesigns of search results and discussed potential shortcomings of each one.</li>
+
+          <br />
+
+          <li>Finally, we prototyped 2 different versions of the search results component. My teammate did one version on Sketch and my other teammate did the second version on Adobe Photoshop. We then used InVision to make these prototypes interactive.</li>
+
+          <table width="500px" cellpadding="10" align="center">
+            <tr>
+
+            <td align="center">
+            <img src="../assets/images/projects/amtrak-prototype1.png" class="table2" />
+            <span class="caption">This collapsible version took Amtrak's current layout and implemented an accordion. By default, each trip is closed, with the intention of clearing up the confusion between full trips and individual transfers.</span>
+            </td>
+
+            <td align="center">
+            <img src="../assets/images/projects/amtrak-prototype2.png" class="table2" />
+            <span class="caption">This static version was a more simplified view of all the search results, where users can only view details and choose specific options when they click on the respective links.</span>
+            </td>
+
+            </tr>
+          </table>
+
+          <br />
+
+          <h3 class="ol">Analyze</h3>
+          <li>To evaluate our designs, we conducted a 2nd user test on our interactive prototypes following the same format as the first: doing a think aloud task and asking questions. As part of the task, we turned off InVision's hotspots, observing if users were able to understand the UI.</li>
+        </ol>
+      </div>
+
+      <div class="content">
+        <h2>Conclusion</h2>
+        <p>To our surprise, we found that the collapsible interface was still confusing to our users, and all of them preferred the static one. This assignment was very similar to the Music App Prototype project I did prior to it but with less focus on competitors and more focus on the users. I let my other group members create our project's UI this time, but I still gave them help when they needed it. I think what was most interesting about our results was that it wasn't expected, which is probably the whole point of the assignment. We made two diferent versions of the same thing, and only one of them succeeded with our users.</p>
+      </div>
+
+			<button class="button" onclick="window.open('https://invis.io/29EW6Q3FQ#/268653908_Homepage')">Try Our Failed Design</button>
+
+      <br /><br />
+
+      <button class="button" onclick="window.open('https://invis.io/2ZEWAOTSU#/268642988_Home_1 ')">Try Our Successful Design</button>
+
+      <br /><br />
+
+      <button class="button" onclick="window.open('https://docs.google.com/document/d/1hb7zXegZ8VjsvHoQqedZD6bG84Z5B_V6RMvp4vpNvLI/edit?usp=sharing')">View Full Write Up</button>
+
+			<!-- Attempting to hyperlink to section on projects (doesn't work yet)
+			<div class="content"><p>
+				<a onclick="showDesign()" href="../projects.html">#Design</a>
+				<a onclick="showTechnical()" href="../projects.html">#Technical</a>
+			</p></div>
+			-->
+
+			<a id="back" href="../projects.html">&larr; View More Projects</a>
+
+      <footer>
+        <div align="center">&copy;2017 by Jorenne Flores</div>
+        <br>
+      </footer>
+
+    	</div>
+    </div> 
+
+  </body>
+</html>
