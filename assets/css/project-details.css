@@ -1,3 +1,9 @@
+
+/* Temporary for while I make mobile site */
+.maintenance{
+  display: none;
+}
+
 .jumbotron .content{
   padding: 10px 20px;
 }
@@ -119,4 +125,21 @@
 .jumbotron .button:hover {
   background-color: #2957ff;
   color: white;
+}
+
+/* Temporary for while I make mobile site */
+@media only screen and (max-width: 768px){
+
+  .jumbotron{
+    display: none;
+  }
+
+  .maintenance{
+    padding: 20%;
+    display: inline-block;
+    color: black;
+  }
+  .maintenance p{
+    color: black;
+  }
 }

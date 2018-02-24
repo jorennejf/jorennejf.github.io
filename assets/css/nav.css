@@ -221,4 +221,12 @@ footer{
   .header .socialmedia img {
     margin: 5px;
   }
+
+  footer{
+    text-align: center;
+    width: 85%;
+    margin: 10px auto 0 auto;
+    position: absolute;
+    color: #5a5a5a;
+  }
 }
