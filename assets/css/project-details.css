@@ -62,11 +62,14 @@
   margin: auto;
   width: 95%;
   height: auto;
+  padding: 10px;
 }
 
 .jumbotron .single-vert{
+  margin: auto;
   width: auto;
   height: 400px;
+  padding: 10px;
 }
 
 .jumbotron td img {
