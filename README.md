@@ -1,3 +1,3 @@
 # website
 
-All of the code and files associated with my personal website, published on jorennejf.github.io.
+All of the code and files associated with my personal website, published on http://jorenne.me
