@@ -34,6 +34,14 @@
   font-size: 1.8em;
 }
 
+.jumbotron h2>br{
+    display: none;
+}
+
+.jumbotron h2>#line{
+  display: inline;
+}
+
 .jumbotron .current{
   font-weight: bold;
   color: #2957ff !important;
@@ -126,9 +134,17 @@
     padding: 10px;
   }
 
-  /*.jumbotron h2{
-    font-size: 1.1em;
-  }*/
+  .jumbotron h2{
+    font-size: 1.5em;
+  }
+
+  .jumbotron h2>br{
+    display: inline;
+  }
+
+  .jumbotron h2>#line{
+    display: none;
+  }
 
   .jumbotron .container{
     padding-top: 15%;
