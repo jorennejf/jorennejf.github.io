@@ -74,7 +74,7 @@
   }
 
   .jumbotron .container{
-    padding-top: 5%;
+    padding: 5% 0px;
   }
 
 }
