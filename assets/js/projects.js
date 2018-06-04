@@ -5,6 +5,7 @@
 function showAll() {
 	unboldAll();
 	$( "#all" ).addClass( "current" );
+	$( ".all" ).hide(200);
 	$( ".all" ).show(200);
 	//$( ".all" ).css("transition", ".5s ease");
 	//$( ".all" ).css("opacity", "1");
