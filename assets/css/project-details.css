@@ -21,6 +21,12 @@
   margin-left: 20px;
 }
 
+.jumbotron ul h3{
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  text-decoration: none;
+  margin-left: -25px;
+}
+
 .jumbotron h3.ol{
   margin-left: -2em;
   font-size: 1em;
@@ -29,6 +35,10 @@
 
 .jumbotron ul,ol {
   font-size: 1.25em;
+}
+
+.jumbotron .list{
+  padding-bottom: 2%;
 }
 
 .jumbotron table{
@@ -125,6 +135,8 @@
 .jumbotron iframe{
   margin: 0 auto;
   display: block;
+  width: 640px;
+  height: 360px;
 }
 
 .jumbotron .button{
@@ -158,12 +170,50 @@
     display: none;
   }
 
+  .jumbotron .container{
+    padding: 50px 0px;
+  }
+
+  .jumbotron .single-photo{
+    width: 100%;
+  }
+
+  .jumbotron .single-vert{
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbotron h3{
+    font-size: 1.2em;
+  }
+
+  .jumbotron iframe{
+    width: 480px;
+    height: 270px;
+  }
+
+  .jumbotron .button{
+    margin: 0;
+    width: 100%;
+  }
+
+  .jumbotron #back{
+    margin-left: -20px;
+  }
+
   .maintenance{
     padding: 20%;
+    padding-top: 100px;
     display: inline-block;
     color: black;
   }
   .maintenance p{
     color: black;
+  }
+}
+@media only screen and (max-width: 576px){
+  .jumbotron iframe{
+    width: 100%;
+    height: auto;
   }
 }
