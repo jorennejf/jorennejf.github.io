@@ -166,7 +166,7 @@
 /* Temporary for while I make mobile site */
 @media only screen and (max-width: 768px){
 
-  .jumbotron{
+  .not-mobile{
     display: none;
   }
 
@@ -195,6 +195,7 @@
   .jumbotron .button{
     margin: 0;
     width: 100%;
+    padding: 15px 20px;
   }
 
   .jumbotron #back{
