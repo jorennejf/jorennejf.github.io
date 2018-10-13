@@ -10,6 +10,7 @@
 
 .jumbotron .process{
   background-color: #eee;
+  padding: 20px;
 }
 
 .jumbotron .content a{
@@ -28,13 +29,17 @@
 }
 
 .jumbotron h3.ol{
-  margin-left: -2em;
+  margin-left: -1em;
   font-size: 1em;
   text-decoration: none;
 }
 
 .jumbotron ul,ol {
   font-size: 1.25em;
+}
+
+.jumbotron .process ol{
+  padding: 0 1.5em;
 }
 
 .jumbotron .list{
@@ -72,7 +77,7 @@
   margin: auto;
   width: 95%;
   height: auto;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .jumbotron .single-vert{
@@ -80,6 +85,10 @@
   width: auto;
   height: 400px;
   padding: 10px;
+}
+
+.jumbotron .single-phone{
+  height: 300px;
 }
 
 .jumbotron td img {
@@ -212,9 +221,32 @@
     color: black;
   }
 }
+
+/* mobile styles */
 @media only screen and (max-width: 576px){
+
   .jumbotron iframe{
     width: 100%;
     height: auto;
   }
+
+  .jumbotron .process{
+    margin: 0 -5% 0 -10%;
+  }
+
+  .jumbotron .banner{
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbotron .single-phone{
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbotron .caption-right, .jumbotron .caption-left{
+    text-align: center;
+  }
+
 }
