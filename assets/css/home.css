@@ -102,6 +102,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border: 1px solid #e3e3e3;
   }
 
   .middle {
