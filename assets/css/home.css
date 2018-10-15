@@ -81,20 +81,25 @@
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: #2957ff;
   }
-  .feat-proj {
-      position: relative;
-      width: 250px;
-      height: 250px;
-      overflow: hidden;
+
+  .feat-proj{
+    position: relative;
+    height: 22.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
 
-  .image {
+  .feat-proj .image{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
     opacity: 1;
     filter: brightness(100%);
     display: block;
     width: 100%;
     height: auto;
-    min-height: 250px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
