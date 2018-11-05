@@ -42,10 +42,80 @@
   display: none;
 }
 
-/* Featured Projects Temp Unavailable for Mobile */
-  .jumbotron .container {
-    display: none;
-  }
+/* Featured Projects */
+.jumbotron .container {
+  display: block;
+  color: #5a5a5a;
+  max-width: 75%;
+  margin: auto;
+  padding: 20px 20px;
+  /*border: 2px solid #2957ff;
+  border-radius: 25px;*/
+}
+.jumbotron h1{
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color: #2957ff;
+}
+
+.feat-proj{
+  height: 250px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.feat-proj .image{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  filter: brightness(100%);
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 1px solid #e3e3e3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.feat-proj:hover .image {
+  /*opacity: 0.3;*/
+  filter: brightness(20%);
+}
+
+.feat-proj:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  padding: 10%;
+}
+.jumbotron .container p{
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  text-align: right;
+}
+.jumbotron .container a{
+  color: #5a5a5a;
+  text-decoration: none;
+}
+/* End Featured Projects*/
 
 /* Desktop Only */
 
@@ -67,77 +137,9 @@
     margin: 0px -150px;
   }
 
-  /* Featured Projects */
-  .jumbotron .container {
-    display: block;
-    color: #5a5a5a;
-    max-width: 75%;
-    margin: auto;
-    padding: 20px 20px;
-    /*border: 2px solid #2957ff;
-    border-radius: 25px;*/
-  }
-  .jumbotron h1{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: #2957ff;
-  }
-
   .feat-proj{
-    position: relative;
     height: 22.5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    margin-bottom: 0;
   }
 
-  .feat-proj .image{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 1;
-    filter: brightness(100%);
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    border: 1px solid #e3e3e3;
-  }
-
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .feat-proj:hover .image {
-    /*opacity: 0.3;*/
-    filter: brightness(20%);
-  }
-
-  .feat-proj:hover .middle {
-    opacity: 1;
-  }
-
-  .text {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 1.2em;
-    padding: 10%;
-  }
-  .jumbotron .container p{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    text-align: right;
-  }
-  .jumbotron .container a{
-    color: #5a5a5a;
-    text-decoration: none;
-  }
-  /* End Featured Projects*/
 }
