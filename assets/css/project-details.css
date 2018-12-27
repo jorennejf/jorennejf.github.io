@@ -30,12 +30,14 @@
 
 .jumbotron h3.ol{
   margin-left: -1em;
-  font-size: 1em;
-  text-decoration: none;
 }
 
 .jumbotron ul,ol {
   font-size: 1.25em;
+}
+
+.jumbotron ul{
+  margin-left: -2rem;
 }
 
 .jumbotron .process ol{
@@ -193,7 +195,7 @@
   }
 
   .jumbotron h3{
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   .jumbotron iframe{
