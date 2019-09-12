@@ -7,7 +7,6 @@
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="../assets/css/nav.css">
-    <link rel="stylesheet" href="../assets/css/projects.css">
     <link rel="stylesheet" href="../assets/css/project-details.css">
     <script src="../assets/js/jquery-3.2.1.js"></script>
     <script src="../assets/js/backtop.js"></script>
@@ -47,157 +46,141 @@
     <!-- BACK TO TOP -->
     <img onclick="topFunction()" id="backtop" src="../assets/images/top.png" />
 
+    <div class="jumbotron">
+      <div class="container">
 
-    <!-- Temporary for while I make mobile site -->
-    <div class="maintenance">
-      <h3>Mobile View Under Maintenance</h3>
-      <br />
-      <p>If you really want to view this page, check it out on a desktop or with a larger size window! Sorry for the inconvenience :(</p>
-      <br/>
-      <h3 style="text-align: center"><a target="_blank" href="../Jorenne Flores - Resume.pdf">View Resume</a></h3>
-      <br />
-      <h3 style="text-align: center"><a href="../projects.html">View Projects</a></h3>
-    </div>
-    
+        <a id="back" href="../projects.html">&larr; View More Projects</a>
+        <br /><br />
 
-    <div class="jumbotron not-mobile">
-    	<div class="container">
+        <div class="intro">
+          <h1 align="center">Music App Prototype</h1>
+          <h2 align="center">Nov 2017</h2>
+          <img src="../assets/images/projects/musicapp1.png" class="banner" />
+          <div class="center">This is a screenshot of our interactive prototype on InVision.</div>
+        </div>
 
-    		<a id="back" href="../projects.html">&larr; View More Projects</a>
-    		<br>
-    		<br>
-			<h1 align="center">Music App Prototype</h1>
-			<h2 align="center">Nov 2017</h2>
-
-			<br>
-
-			<img src="../assets/images/projects/musicapp1.png" class="banner">
-      <div class="caption" style="max-width: 55%;">This is a screenshot of our interactive prototype on InVision.</div>
-
-			<br />
-
-      <div class="content">
-        <h2>Overview</h2>
         <br />
-        <h3>Goal</h3>
-        <p>The goal of this project was to create a user-friendly music app based on research of other popular music apps.</p>
-        <br />
-        <div class="list row">
-          <div class="col-sm-12 col-md-6">
-                <ul>
-                  <h3>My Roles</h3>
-                  <li>User Research</li>
-                  <li>Competitive Analysis</li>
-                  <li>Information Architecture</li>
-                  <li>User Interface Design</li>
-                  <li>Interactive Prototyping</li>
-                </ul>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <ul>
-                  <h3>Tools</h3>
-                  <li>Adobe Photoshop</li>
-                  <li>InVision</li>
-                  <li>Google Docs</li>
-                </ul>
-              </div>
+
+        <div class="overview">
+          <h2>Overview</h2>
+          <br />
+          <h3>Goal</h3>
+          <p>The goal of this project was to create a user-friendly music app based on research of other popular music apps.</p>
+          <br />
+          <div class="row list">
+            <div class="col-sm-12 col-md-6">
+              <ul>
+                <h3>My Roles</h3>
+                <li>User Research</li>
+                <li>Competitive Analysis</li>
+                <li>Information Architecture</li>
+                <li>User Interface Design</li>
+                <li>Interactive Prototyping</li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <ul class="responsive">
+                <h3>Tools</h3>
+                <li>Adobe Photoshop</li>
+                <li>InVision</li>
+                <li>Google Docs</li>
+              </ul>
+            </div>
           </div>
-        <h3>Story</h3>
-            <p>Our project is an interactive prototype based off of user research of frequent music listeners and competitive analysis of other music apps. The features we designed were limited to creating and managing a playlst.</p>
-            <p>This project was a part of COGS 187A: Usability and Information Architecture, where we worked in a team of 3. The other members of my team include Connie Guan and Ricky Lieu.</p>
+          <br />
+          <h3>Story</h3>
+          <p>Our project is an interactive prototype based off of user research of frequent music listeners and competitive analysis of other music apps. The features we designed were limited to creating and managing a playlist.</p>
+          <p>This project was a part of COGS 187A: Usability and Information Architecture, in which we worked in a team of 3. The other members of my team include Connie Guan and Ricky Lieu.</p>
+        </div>
+
+        <br />
+
+        <div class="process">
+          <h2>Design Process</h2>
+          <br />
+          <ol>
+            <h3>Interview</h3>
+            <li>As a team, we came up with interview questions to ask our users. After asking these questions, we observed our interviewees interacting with some of our competing apps: Spotify, Amazon Music, or Soundcloud. We interviewed 9 people total and used these interviews to come up with user scenarios.</li>
+
+            <br />
+
+            <h3>Comparisons</h3>
+            <li>
+              To gain a better understanding of what does and doesn't work, we tried out our user scenarios with other music apps. We used annotations (pictured below) to highlight key components of the app that were necessary to complete the scenarios.
+              <div class="row">
+                <div class="col-md-6 col-sm-12 center">
+                  <img src="../assets/images/projects/musicapp-compare1.png" />
+                  <div class="caption">This screenshot shows a good example of one of our scenarios - viewing the current song playing.</div>
+                </div>
+                <div class="col-md-6 col-sm-12 center">
+                  <img src="../assets/images/projects/musicapp-compare2.png" />
+                  <div class="caption" style="margin-bottom: 0;">This screenshot is a bad example of controlling what's playing. These buttons only appear when the user holds down on the centered sphere.</div>
+                </div>
+              </div>
+              <br />
+              <a target="_blank" href="https://docs.google.com/document/d/1hboGnkY8SCRFaMbaKe0rH3e3MAm1g_G1ou4f9Z9ythg/edit?usp=sharing">View the full write up</a> to see our other comparisons.
+            </li>
+
+            <br />
+
+            <h3>Information Architecture</h3>
+            <li>
+              To understand our competitors' information architecture, we created site maps for each one. Below is the sitemap I made for Spotify.
+              <img src="../assets/images/projects/musicapp-sitemap.png" />
+            </li>
+
+            <br />
+
+            <h3>Prototyping</h3>
+            <li>
+              Finally, we used all of the information gathered to create an interactive prototype on InVision! Below are some screenshots of our app's UI. You can also view the interactive prototype <a target="_blank" href="https://projects.invisionapp.com/share/HVEQWOSWD#/screens">here</a>.
+              <div class="row">
+                <div class="col-md-4 col-sm-12 center">
+                  <img src="../assets/images/projects/musicapp-prototype1.png" />
+                </div>
+                <div class="col-md-4 col-sm-12 center">
+                  <img src="../assets/images/projects/musicapp-prototype2.png" />
+                </div>
+                <div class="col-md-4 col-sm-12 center">
+                  <img src="../assets/images/projects/musicapp-prototype3.png" />
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <br />
+
+        <div class="conclusion">
+          <h2>Conclusion</h2>
+          <p>I really enjoyed creating the UI of all the pages of our app, but it was a challenge connecting them all together on InVision because there always seems to be a page missing in between. In the end, we got a 96% on this assignment. Feedback from the TA said that we only lost those points because we didn't follow the directions exactly and forgot one small thing.</p>
+
+          <div class="row flex-center">
+            <div class="col-md-4 col-sm-12">
+              <button class="button" onclick="window.open('https://projects.invisionapp.com/share/HVEQWOSWD#/screens')">Try Our Prototype!</button>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <button class="button" onclick="window.open('https://docs.google.com/document/d/1hboGnkY8SCRFaMbaKe0rH3e3MAm1g_G1ou4f9Z9ythg/edit?usp=sharing')">View Full Write Up</button>
+            </div>
+          </div>       
+        </div>
+
+        <!-- Attempting to hyperlink to section on projects (doesn't work yet)
+        <div class="content"><p>
+          <a onclick="showArt()" href="../projects.html">#Art</a>
+          <a onclick="showDesign()" href="../projects.html">#Design</a>
+          <a onclick="showTechnical()" href="../projects.html">#Technical</a>
+        </p></div>
+        -->
+
+        <br />
+        <a id="back" href="../projects.html">&larr; View More Projects</a>
+        <br /><br />
+
+        <div class="center">&copy;2019 by Jorenne Flores</div>
+        <br />
+
       </div>
-
-      <div class="content process">
-        <h2>Design Process</h2>
-        <ol>
-          <br />
-          <h3 class="ol">Interview</h3>
-          <li>As a team, we came up with interview questions to ask our users. After asking these questions, we observed our interviewees interacting with some of our competing apps: Spotify, Amazon Music, or Soundcloud. We interviewed 9 people total and used these interviews to come up with user scenarios.</li>
-
-          <br />
-
-          <h3 class="ol">Comparisons</h3>
-          <li>To gain a better understanding of what does and doesn't work, we tried out our user scenarios with other music apps. We used annotations (pictured below) to highlight key components of the app that were necessary to complete the scenarios.
-          <br />
-          <table width="500px" cellpadding="10" align="center">
-            <tr>
-
-            <td align="center">
-            <img src="../assets/images/projects/musicapp-compare1.png" class="table2" style="height: 100%"/>
-            <span class="caption">This screenshot shows a good example of one of our scenarios - viewing the current song playing.</span>
-            </td>
-
-            <td align="center">
-            <img src="../assets/images/projects/musicapp-compare2.png" class="table2" style="height: 105%"/>
-            <span class="caption">This screenshot is a bad example of controlling what's playing. These buttons only appear when the user holds down on the centered sphere.</span>
-            </td>
-
-            </tr>
-          </table>
-
-          <br />
-          <a target="_blank" href="https://docs.google.com/document/d/1hboGnkY8SCRFaMbaKe0rH3e3MAm1g_G1ou4f9Z9ythg/edit?usp=sharing">View the full write up</a> to see our other comparisons.
-          </li>
-
-          <br /><br />
-
-          <h3 class="ol">Information Architecture</h3>
-          <li>To understand our competitors' information architecture, we created site maps for each one. Below is the sitemap I made for Spotify.</li>
-          <img src="../assets/images/projects/musicapp-sitemap.png" class="single-photo">
-
-          <br />
-
-          <h3 class="ol">Prototype</h3>
-          <li>Finally, we used all of the information gathered to create an interactive prototype on InVision! Below are some screenshots of our app's UI. You can also view the interactive prototype <a target="_blank" href="https://projects.invisionapp.com/share/HVEQWOSWD#/screens">here</a>.</li>
-          <br />
-          <table width="500px" cellpadding="10">
-            <tr>
-
-            <td align="center">
-            <img src="../assets/images/projects/musicapp-prototype1.png" class="table3" style="height: 35%"/>
-            </td>
-
-            <td align="center">
-            <img src="../assets/images/projects/musicapp-prototype2.png" class="table3" style="height: 35%"/>
-            </td>
-
-            <td align="center">
-            <img src="../assets/images/projects/musicapp-prototype3.png" class="table3" style="height: 35%"/>
-            </td>
-
-            </tr>
-          </table>
-          <br />
-        </ol>
-      </div>
-
-      <div class="content">
-        <h2>Conclusion</h2>
-        <p>I really enjoyed creating the UI of all the pages of our app, but it was a challenge connecting them all together on InVision because there always seems to be a page missing in between. In the end, we got a 96% on this assignment. Feedback from the TA said that we only lost those points because we didn't follow the directions exactly and forgot one small thing.</p>
-      </div>
-
-      <button class="button" onclick="window.open('https://projects.invisionapp.com/share/HVEQWOSWD#/screens')">Try Our Prototype!</button>
-
-      <br /><br />
-
-      <button class="button" onclick="window.open('https://docs.google.com/document/d/1hboGnkY8SCRFaMbaKe0rH3e3MAm1g_G1ou4f9Z9ythg/edit?usp=sharing')">View Full Write Up</button>
-
-			<!-- Attempting to hyperlink to section on projects (doesn't work yet)
-			<div class="content"><p>
-				<a onclick="showDesign()" href="../projects.html">#Design</a>
-				<a onclick="showTechnical()" href="../projects.html">#Technical</a>
-			</p></div>
-			-->
-
-			<a id="back" href="../projects.html">&larr; View More Projects</a>
-
-      <footer>
-        <div align="center">&copy;2019 by Jorenne Flores</div>
-        <br>
-      </footer>
-
-    	</div>
-    </div> 
-
+    </div>
   </body>
 </html>

@@ -7,7 +7,6 @@
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="../assets/css/nav.css">
-    <link rel="stylesheet" href="../assets/css/projects.css">
     <link rel="stylesheet" href="../assets/css/project-details.css">
     <script src="../assets/js/jquery-3.2.1.js"></script>
     <script src="../assets/js/backtop.js"></script>
@@ -46,76 +45,95 @@
 
     <!-- BACK TO TOP -->
     <img onclick="topFunction()" id="backtop" src="../assets/images/top.png" />
-    
 
     <div class="jumbotron">
       <div class="container">
 
         <a id="back" href="../projects.html">&larr; View More Projects</a>
-        <br>
-        <br>
-      <h1 align="center">DML SteamVR Home Environment</h1>
-      <h2 align="center">July 2017</h2>
+        <br /><br />
 
-      <br>
+        <div class="intro">
+          <h1 align="center">DML SteamVR Home Environment</h1>
+          <h2 align="center">Jul 2017</h2>
+          <img src="../assets/images/projects/dmlvr1.png" class="banner" />
+          <div class="center">This is one screenshot of how the room looks like in a virtual reality headset.</div>
+        </div>
 
-      <img src="../assets/images/projects/dmlvr1.png" class="banner">
-      <div class="caption" style="max-width: 60%;">This is one screenshot of how the room looks like in a virtual reality headset.</div>
-
-      <br>
-
-      <div class="content">
-        <h2>Overview</h2>
         <br />
-        <h3>Company</h3>
-        <p>U.C. San Diego Library Learning Spaces</p>
-        <h3>Goal</h3>
-        <p>The goal of this project was to create an immersive, customized experience for visitors of U.C. San Diego's Digital Media Lab.</p>
-        <br />
-        <div class="list row">
-            <div class="col-sm-12">
-              <ul>
+
+        <div class="overview">
+          <h2>Overview</h2>
+          <br />
+          <h3>Company</h3>
+          <p>U.C. San Diego Library Learning Spaces</p>
+          <br />
+          <h3>Goal</h3>
+          <p>The goal of this project was to create an immersive, customized experience for visitors of U.C. San Diego's Digital Media Lab.</p>
+          <br />
+          <div class="row list">
+            <div class="col-sm-12 col-md-6">
+              <ul class="responsive">
                 <h3>Tools</h3>
                 <li>Google SketchUp</li>
                 <li>SteamVR Workshop</li>
               </ul>
             </div>
+          </div>
+          <br />
+          <h3>Story</h3>
+          <p>The DML SteamVR Home Environment is an interactive virtual reality environment based on UCSD's Digital Media Lab in Geisel Library. Large panels replace the television on the wall to allow users to view their friends, select a game, or move to a different room. Users can also teleport around the room and pick up the chairs or various objects on the shelves.</p>
+          <p>This was a summer project I did while working part-time at the DML. My manager wanted me to recreate the room to set up as our home environment whenever visitors use our virtual reality headsets.</p>
         </div>
-        <h3>Story</h3>
-            <p>The DML SteamVR Home Environment is an interactive virtual reality environment based on UCSD's Digital Media Lab in Geisel Library. Large panels replace the television on the wall to allow users to view their friends, select a game, or move to a different room. Users can also teleport around the room and pick up the chairs or various objects on the shelves.</p>
-            <p>This was a summer project I did while working part-time at the DML. My manager wanted me to recreate the room to set up as our home environment whenever visitors use our virtual reality headsets.</p>
+
+        <div class="details">
+          <div class="row">
+            <div class="col-sm-12 center">
+              <img src="../assets/images/projects/dmlvr2.png" />
+              <div class="caption-full">Users can point to these panels on the walls to access other features.</div>
+            </div>
+            <div class="col-sm-12 center">
+              <img src="../assets/images/projects/dmlvr4.png" />
+              <div class="caption-full">When the user extends their controller towards an interactive object, the object glows, indicating that it can be picked up.</div>
+            </div>
+            <div class="col-sm-12 center">
+              <img src="../assets/images/projects/dmlvr3.png" />
+              <div class="caption-full" style="margin-bottom: 0;">This shelf is full of a few interactive objects that are actually on display in the real Digital Media Lab at UCSD as 3D printed objects.</div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="conclusion">
+          <div class="row center">
+            <div class="col-sm-12">
+              <h3 class="center" style="margin-bottom: 10px;">Download it now and view it on your VR headset!</h3>
+              <button class="button button-full" onclick="window.open('https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813')">Download on Steam</button>
+            </div>
+            <br />
+            <div class="col-sm-12">
+              <h3 class="center" style="margin-bottom: 10px;">Don't have a VR headset? Me&nbsp;neither.</h3>
+              <button class="button button-full" onclick="window.open('https://sketchfab.com/models/b861920a9df346db819b0151bc5594ac')">View 3D Model</button>
+            </div>
+          </div>       
+        </div>
+
+        <!-- Attempting to hyperlink to section on projects (doesn't work yet)
+        <div class="content"><p>
+          <a onclick="showArt()" href="../projects.html">#Art</a>
+          <a onclick="showDesign()" href="../projects.html">#Design</a>
+          <a onclick="showTechnical()" href="../projects.html">#Technical</a>
+        </p></div>
+        -->
+
+        <br />
+        <a id="back" href="../projects.html">&larr; View More Projects</a>
+        <br /><br />
+
+        <div class="center">&copy;2019 by Jorenne Flores</div>
+        <br />
+
       </div>
-
-      <br />
-
-      <img src="../assets/images/projects/dmlvr2.png" class="single-photo">
-      <div class="caption">Users can point to these panels on the walls to access other features.</div>
-      <br />
-
-      <img src="../assets/images/projects/dmlvr4.png" class="single-photo">
-      <div class="caption">When the user extends their controller towards an interactive object, the object glows, indicating that it can be picked up.</div>
-      <br />
-
-      <img src="../assets/images/projects/dmlvr3.png" class="single-photo">
-      <div class="caption">This shelf is full of a few interactive objects that are actually on display in the real Digital Media Lab at UCSD as 3D printed objects.</div>
-      <br /><br />
-
-      <h2 align="center">Download it now and view it on your VR headset!</h2>
-      <button class="button" onclick="window.open('https://steamcommunity.com/sharedfiles/filedetails/?id=1089932813')">Download on Steam</button>
-      <br><br>
-      <h2 align="center">Don't have a VR headset? Me Neither.</h2>
-      <button class="button" onclick="window.open('https://sketchfab.com/models/b861920a9df346db819b0151bc5594ac')">View 3D Model</button>
-      <br><br>
-
-      <a id="back" href="../projects.html">&larr; View More Projects</a>
-
-      <footer>
-        <div align="center">&copy;2019 by Jorenne Flores</div>
-        <br>
-      </footer>
-        
-      </div>
-    </div> 
-
+    </div>
   </body>
 </html>
