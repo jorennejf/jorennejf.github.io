@@ -114,6 +114,10 @@
 	margin-bottom: 20px;
 }
 
+.jumbotron .process .caption-top, .jumbotron .details .caption-top, .jumbotron .conclusion .caption-top{
+	margin-top: 20px;
+}
+
 .jumbotron .process .caption-full, .jumbotron .details .caption-full, .jumbotron .conclusion .caption-full{
 	margin-bottom: 20px; /* the regular .caption is different on mobile/desktop but .caption-full is the same on mobile/desktop */
 }
