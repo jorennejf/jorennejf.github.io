@@ -20,7 +20,7 @@
 
 .jumbotron .row{
   margin: 0;
-  justify-content: center;
+  /*justify-content: center; <-- looks kinda weird when there's only a row of 2 that's centered */
 }
 
 .jumbotron h1 {
