@@ -21,6 +21,12 @@
     <meta name="keywords" content="Jorenne Flores, Designer, Developer, UX, Front End, Human Computer Interaction, Interaction Design, Experience Design, UI, HCI, HCD"> 
 
     <script src="assets/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var year = new Date().getFullYear();
+        $("#year").html(year);
+      });
+    </script>
     
   </head>
 
@@ -89,7 +95,7 @@
     </div>
 
     <footer style="width: 100%;">
-      <div align="center">&copy;2019 by Jorenne Flores</div>
+      <div align="center">&copy;<span id="year"></span> by Jorenne Flores</div>
       <br>
     </footer>
 
