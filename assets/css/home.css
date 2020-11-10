@@ -13,7 +13,7 @@
   width: 100%;
   max-width: 500px;
   text-align: center;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 /* This is the triangle */
@@ -53,7 +53,7 @@
   border-radius: 25px;*/
 }
 .jumbotron h1{
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   color: #2957ff;
 }
 
@@ -92,14 +92,14 @@
 }
 
 .text {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   text-align: center;
   color: white;
   font-size: 1.2em;
   padding: 10%;
 }
 .jumbotron .container p{
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   text-align: right;
 }
 .jumbotron .container a{
@@ -120,7 +120,7 @@
   }
 
   .subtitle{
-    font-size: 24px;
+    font-size: 20px;
   }
 
   #cartoon {

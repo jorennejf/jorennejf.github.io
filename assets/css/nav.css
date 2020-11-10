@@ -38,7 +38,7 @@
 .header li a {
   color: #5a5a5a;
   font-size: 24px;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   display: block;
   text-decoration: none;
   text-align: center;
@@ -73,6 +73,7 @@ footer{
   margin: 10px auto 0 auto;
   position: absolute;
   color: #5a5a5a;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 /* Animations on Only for Desktop */
