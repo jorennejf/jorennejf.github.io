@@ -47,3 +47,18 @@ function unboldAll() {
 	$( "#design" ).removeClass( "current" );
 	$( "#technical" ).removeClass( "current" );
 }
+
+/* This function only displays certain categories on page load based on the url.
+ */
+function hashtag(){
+	var url = window.location.href;
+    url = url.split('#');
+    var category = url[1];
+    if(category=='art'){
+      showArt();
+    } else if(category=='design'){
+    	showDesign();
+    } else if(category=='technical'){
+    	showTechnical();
+    }
+}

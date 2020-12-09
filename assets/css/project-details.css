@@ -164,6 +164,10 @@
 		max-width: 80%;
 	}
 
+	.hashtags{
+		text-align: right;
+	}
+
 	.jumbotron .process .caption, .jumbotron .details .caption, .jumbotron .conclusion .caption{
 		margin-bottom: 0;
 	}
