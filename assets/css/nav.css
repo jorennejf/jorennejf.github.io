@@ -1,3 +1,9 @@
+/* Fade in animation on load */
+body {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
 /* Back to Top */
 
 #backtop {
