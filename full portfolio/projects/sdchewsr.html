@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/project-details.css">
+    <script src="../assets/js/jquery-3.2.1.js"></script>
+    <script src="../assets/js/backtop.js"></script>
+    <script src="../assets/js/projects.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>San Diego Chewsr</title>
+    <link rel="shortcut icon" href="../assets/images/header-icon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var year = new Date().getFullYear();
+        $("#year").html(year);
+      });
+    </script>
+    
+  </head>
+
+  <body>
+
+    <header class="header">    
+      <input class="menu-mobile" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+      <ul class="menu">
+        <li><a href="../index.html" class="nav">Home</a></li>
+        <li><a href="../about.html" class="nav">About</a></li>
+        <li><a id="current" href="../projects.html" class="nav">Projects</a></li>
+        <li><a target="_blank" href="../Jorenne Flores - Resume.pdf" class="nav">Resume</a></li>
+        <div class="socialmedia">
+          <li><a target="_blank" href="https://www.facebook.com/jorennejf"><img src="../assets/images/fb.png"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jorenne-flores-a99356a9"><img src="../assets/images/in.png"></a></li>
+          <li><a target="_blank" href="https://github.com/jorennejf/"><img src="../assets/images/git.png" id="git"></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/JorenneFlores"><img src="../assets/images/yt.png"></a></li>
+        </div>
+      </ul>
+
+    </header>
+
+    <!-- BACK TO TOP -->
+    <img onclick="topFunction()" id="backtop" src="../assets/images/top.png" />
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <a id="back" href="../projects.html">&larr; View More Projects</a>
+        <br /><br />
+
+        <div class="intro">
+          <h1 align="center">San Diego Chewsr</h1>
+          <h2 align="center">Feb 2022</h2>
+          <img src="../assets/images/projects/chewsr-banner.png" class="banner" style="border: 1px solid #e3e3e3;" />
+        </div>
+
+        <br />
+
+        <div class="overview">
+          <h2>Overview</h2>
+          <br />
+          <h3>Goal</h3>
+          <p>The goal of this project was to solve the problem of figuring out what my partner and I want to eat in San Diego that we know we would like.</p>
+          <br />
+          <div class="row list">
+            <div class="col-sm-12 col-md-6">
+              <ul>
+                <h3>My Roles</h3>
+                <li>User Interface Design</li>
+                <li>Front-End Development</li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <ul class="responsive">
+                <h3>Tools</h3>
+                <li>Google Drawing</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+          <h3>Story</h3>
+          <p>For Valentine's Day, I wanted to make my partner a food randomizer web app that we can pull up on our phones whenever we're stuck on what to eat. Through the years, we already have a lot of restaurants we frequently visit, so I wanted to limit the options to food we know we like.</p>
+        </div>
+
+        <br />
+
+        <div class="process">
+          <h2>Design Process</h2>
+          <br />
+          <ol>
+            <h3>Design & Prototype</h3>  
+            <li>
+              Because the concept was so simple, I knew the UI design only needed one focal point: a button. However, I also wanted to include filters in case we had more specific cravings, so I incorporated that in a pop-up accessible through the main page's secondary button.
+              <div class="row">
+                <div class="col-md-12 col-xl-6 center">
+                  <div class="caption-top"></div>
+                  <img src="../assets/images/projects/chewsr-wireframes.png"/>
+                </div>
+              </div>
+            </li>
+
+            <br />
+
+            <h3>Develop</h3> 
+            <li>
+              For the development process, I wanted to focus on functionality first before design (I needed a working web app in time for Valentine's Day! I can always spruce up the design later since it's only for our personal use). This first version had the filters and randomizer all working properly, but I still had time to finalize the design.
+              <div class="row">
+                <div class="col-md-12 col-xl-4 center">
+                  <div class="caption-top">Main Page</div>
+                  <img src="../assets/images/projects/chewsr-v1-main.png" />
+                </div>
+                <div class="col-md-12 col-xl-4 center">
+                  <div class="caption-top">Results</div>
+                  <img src="../assets/images/projects/chewsr-v1-results.png" />
+                </div>
+                <div class="col-md-12 col-xl-4 center">
+                  <div class="caption-top">Filters</div>
+                  <img src="../assets/images/projects/chewsr-v1-filters.png" />
+                </div>
+              </div>
+            </li>
+
+            <br />
+
+            <li>For the design, I researched other simple apps to clean up the web app's main page, really focusing on that single button. Additionally, I decided to include the full list of restaurants I included in this web app, so that we as the users can see what our options are if we wanted to just pick from the list. All of these things were finalized during the development process of this project.</li>
+
+          </ol>
+        </div>
+
+        <br />
+
+        <div class="conclusion">
+          <h2>Conclusion</h2>
+          <p>Thankfully, I managed to finish working on everything I wanted to do a couple days before Valentine's Day. I almost got caught working on it too, but my partner was still pleasantly surprised! If we ever find a new restaurant we like, I can still add it to this web app. For now, there are plenty of options so that we're never faced with the problem of picking a restaurant ever again.</p>
+
+          <div class="row flex-center">
+            <div class="col-md-4 col-sm-12">
+              <button class="button" onclick="window.open('https://jorennejf.github.io/sdchewsr')">Try Chewsr!</button>
+            </div>
+          </div>       
+        </div>
+
+        <br />
+
+        <div class="hashtags center mobile"><p>
+          <a href="../projects.html#design">#Design</a>
+          &nbsp;
+          <a href="../projects.html#technical">#Technical</a>
+        </p></div>
+
+        <br />
+        <div class="row">
+          <div class="col-sm-6">
+            <a id="back" href="../projects.html">&larr; View More Projects</a>
+          </div>
+          <div class="hashtags col-sm-6 desktop">
+            <a href="../projects.html#design">#Design</a>
+            &nbsp;
+            <a href="../projects.html#technical">#Technical</a>
+          </div>
+        </div>
+        <br /><br />
+
+        <div class="center">&copy;<span id="year"></span> by Jorenne Flores</div>
+        <br />
+
+      </div>
+    </div>
+  </body>
+</html>
